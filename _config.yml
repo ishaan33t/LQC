@@ -1,7 +1,6 @@
 title: "LQC Studios"
 description: "Low Quality Creations — high-effort games & ideas."
 url: "https://lqcstudios.ca"
-
 markdown: kramdown
 permalink: pretty
 
@@ -17,8 +16,3 @@ nav:
   - title: About
     url: "/about/"
   - title: Contact
-    url: "/contact/"
-
-brand:
-  name: "LQC"
-  accent: "#ff3b3b"
