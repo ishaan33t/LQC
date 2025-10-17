@@ -1,31 +1,24 @@
 title: "LQC Studios"
 description: "Low Quality Creations — high-effort games & ideas."
-url: "https://lqcstudios.ca" # your production URL
-# If you also serve on GitHub preview (e.g., USER.github.io/repo), set baseurl:
-# baseurl: ""
+url: "https://lqcstudios.ca"
+
 markdown: kramdown
 permalink: pretty
 
-
-# GitHub Pages supports these plugins out of the box:
 plugins:
-- jekyll-sitemap
-- jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-
-# Simple site-wide nav (used by _includes/nav.html)
 nav:
-- title: Home
-url: "/"
-- title: Projects
-url: "/projects/"
-- title: About
-url: "/about/"
-- title: Contact
-url: "/contact/"
+  - title: Home
+    url: "/"
+  - title: Projects
+    url: "/projects/"
+  - title: About
+    url: "/about/"
+  - title: Contact
+    url: "/contact/"
 
-
-# Social / branding (optional)
 brand:
-name: "LQC"
-accent: "#ff3b3b"
+  name: "LQC"
+  accent: "#ff3b3b"
