@@ -4,7 +4,6 @@
     {% for item in site.nav %}
       <li><a href="{{ item.url | relative_url }}" class="navlink" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.title }}</a></li>
     {% endfor %}
-    <li><a class="btn btn--nav" href="{{ "/contact/" | relative_url }}">Contact</a></li>
   </ul>
 </nav>
 <script>

@@ -7,12 +7,15 @@ description: "LQC Studios — building playful, high‑effort experiences."
 
 <section class="hero reveal">
   <div class="card">
-    <span class="kicker">LQC — Low Quality Creations</span>
-    <h1>Built with creativity, not perfection.</h1>
-    <p class="tagline">We prototype fast, polish smart, and ship playable fun on Roblox and beyond.</p>
-    <a class="cta" href="{{ "/projects/" | relative_url }}">See Projects</a>
+    <span class="kicker">Flagship</span>
+    <h1>KOTH: Knockback</h1>
+    <p class="tagline">Chaotic King‑of‑the‑Hill slap battles, smart scaling, bosses, and clean UX.</p>
+    <div class="cta-row">
+      <a class="btn btn--solid" href="https://www.roblox.com/share/g/5641441" target="_blank" rel="noopener">Roblox Group</a>
+      <a class="btn btn--ghost" href="https://discord.gg/eFWCcxUbE7" target="_blank" rel="noopener">Join Discord</a>
+    </div>
   </div>
-  <img src="{{ "/assets/img/og-image.png" | relative_url }}" alt="LQC Studios banner image" class="reveal" />
+  <div class="media reveal"><img src="{ "/assets/img/og-image.png" | relative_url }" alt="KOTH Knockback banner" /></div>
 </section>
 
 <div class="hr"></div>
@@ -20,15 +23,15 @@ description: "LQC Studios — building playful, high‑effort experiences."
 ### Latest Updates
 <div class="grid">
   <article class="card reveal">
-    <h3>KOTH: Knockback</h3>
-    <p class="muted">King‑of‑the‑Hill slap battles with chaotic physics and clean UI.</p>
+    <h3>67 Clicker</h3>
+    <p class="muted">Classic clicker systems with rebirths, autoclickers, and progression polish.</p>
   </article>
   <article class="card reveal">
-    <h3>Vampire‑style Survival</h3>
-    <p class="muted">3D arena upgrades, aura weapons, boss waves, and juicy VFX.</p>
+    <h3>Big Bacon Tycoon</h3>
+    <p class="muted">Economy balancing, upgrades, and tycoon loop tuning for sticky sessions.</p>
   </article>
   <article class="card reveal">
-    <h3>Tooling & Animation</h3>
-    <p class="muted">Moon Animator rigs, camera pans, UI tweening—production ready.</p>
+    <h3>Goat Parkour Training</h3>
+    <p class="muted">Movement‑mechanics sandbox used to prototype smoother traversal (unreleased).</p>
   </article>
 </div>

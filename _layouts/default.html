@@ -12,13 +12,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   {% seo %}
 </head>
-<body>
+<body class="layout">
   <a class="skip-link" href="#content">Skip to content</a>
   <header class="site-header">
     <div class="wrap">
       <a class="brand" href="{{ "/" | relative_url }}" aria-label="{{ site.title }} home">
-        <img src="{{ "/assets/img/logo.svg" | relative_url }}" alt="{{ site.title }} logo" />
-        <span>{{ site.title }}</span>
+        <span class="logo-badge">
+          <img src="{{ "/assets/img/logo.svg" | relative_url }}" alt="{{ site.title }} logo" />
+        </span>
+        <span class="brand-text">{{ site.title }}</span>
       </a>
       {% include nav.html %}
     </div>
@@ -32,12 +34,14 @@
 
   <script>
     (function(){
-      const prefsReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      if(prefsReduced) return;
-      const io = new IntersectionObserver((entries)=>{
-        for(const e of entries){ if(e.isIntersecting){ e.target.classList.add('reveal--visible'); io.unobserve(e.target); } }
-      }, { threshold: 0.16 });
-      document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
+      const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      if (prefersReduced) return;
+      const io = new IntersectionObserver((entries) => {
+        for (const e of entries) {
+          if (e.isIntersecting) { e.target.classList.add('reveal--visible'); io.unobserve(e.target); }
+        }
+      }, { threshold: 0.14 });
+      document.querySelectorAll('.reveal').forEach(el => io.observe(el));
     })();
   </script>
 </body>
