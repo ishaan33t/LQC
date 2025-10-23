@@ -7,13 +7,11 @@ description: "About LQC Studios"
 
 # About LQC
 
-LQC (Low Quality Creations) is a Surrey‑based indie brand focused on rapid prototyping and playful, high‑effort game design.
-We build in public, ship often, and value clarity over complexity.
+LQC (Low Quality Creations) is a Surrey‑based indie brand focused on creating games that we ourselvs find fun to create and pour our creativity and hearts into.
 
 ## What we believe
-- **Fun first.** If it isn't fun in 60 seconds, we iterate.
-- **Readable code.** Future‑you should thank present‑you.
-- **Juice matters.** VFX, SFX, and animation sell every click.
+- **Fun first.** If it isn't fun then whats the point.
+- **Juice matters.** VFX, SFX, and animation are crucial to make it all click together.
 
 ## What we ship
 Roblox experiences, tools, and learning resources — from clickers and tycoons to arena survival and movement sandboxes.
