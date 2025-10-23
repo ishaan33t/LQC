@@ -34,9 +34,8 @@ img{max-width:100%;display:block}
 .site-header{position:sticky;top:0;background:linear-gradient(0deg, rgba(30,33,40,.55), rgba(30,33,40,.92));backdrop-filter:saturate(150%) blur(8px);border-bottom:1px solid #20242a;z-index:20}
 .brand{display:flex;align-items:center;gap:12px;text-decoration:none}
 .brand-text{color:var(--fg);font-weight:800;letter-spacing:.2px}
-/* Logo badge + image sizing (prevents cut-off) */
 .logo-badge{display:inline-grid;place-items:center;background:var(--accent);border-radius:16px;padding:8px;border:1px solid rgba(0,0,0,.25);box-shadow:0 4px 16px rgba(243,184,64,.25)}
-.brand img{height:36px;width:auto} /* keep aspect ratio; scale by height */
+.brand img{height:36px;width:auto}
 .site-nav{display:flex;align-items:center;gap:12px}
 .menu-toggle{display:none;background:transparent;border:1px solid var(--stroke);color:var(--fg);padding:6px 10px;border-radius:12px}
 .links{display:flex;gap:20px;list-style:none;margin:0;padding:0}
@@ -61,7 +60,6 @@ img{max-width:100%;display:block}
 .btn--solid:hover{transform:translateY(-1px);box-shadow:0 10px 24px rgba(243,184,64,.22)}
 .btn--ghost{background:transparent;color:var(--fg);border-color:rgba(243,184,64,.6)}
 .btn--ghost:hover{transform:translateY(-1px);box-shadow:0 10px 20px rgba(243,184,64,.12)}
-/* Make hero/media images look right */
 .media{border-radius:14px;overflow:hidden;border:1px solid var(--stroke);background:#0f1217}
 .media img{width:100%;height:auto;display:block}
 
@@ -77,6 +75,8 @@ img{max-width:100%;display:block}
 /* Featured blocks */
 .featured{display:grid;grid-template-columns:2fr 1.3fr;gap:20px;align-items:center;background:linear-gradient(180deg, rgba(243,184,64,.08), rgba(243,184,64,.02));border:1px solid rgba(243,184,64,.25);border-radius:22px;padding:22px}
 .featured .media{background:#0f1217;border:1px solid var(--stroke);border-radius:14px;min-height:220px}
+/* NEW: single-column variant when there's no media block */
+.featured--single{grid-template-columns:1fr}
 @media (max-width:980px){.grid{grid-template-columns:repeat(2,1fr)} .featured{grid-template-columns:1fr}}
 @media (max-width:640px){.grid{grid-template-columns:1fr}}
 
