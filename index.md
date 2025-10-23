@@ -17,13 +17,6 @@ description: "LQC Studios — building playful, high-effort experiences."
       remains on the hill, a 30-second cleanup runs and everyone resets for the next round. Warm up
       anytime on <strong>PracticeIsland</strong> without affecting score.
     </p>
-    <ul>
-      <li>Round queue & teleports for clean, fair starts</li>
-      <li>Score = time held on the MainIsland hill</li>
-      <li>Slap tool with big knockback for chaotic plays</li>
-      <li>30s end-of-round timer when the hill is decided</li>
-      <li>Separate <strong>PracticeIsland</strong> for testing moves without affecting score</li>
-    </ul>
     <div class="cta-row">
       <a class="btn btn--solid" href="https://www.roblox.com/share/g/5641441" target="_blank" rel="noopener">Roblox Group</a>
       <a class="btn btn--ghost" href="https://discord.gg/eFWCcxUbE7" target="_blank" rel="noopener">Join Discord</a>
