@@ -22,14 +22,15 @@ description: "LQC Studios — building playful, high-effort experiences."
       <a class="btn btn--ghost" href="https://discord.gg/eFWCcxUbE7" target="_blank" rel="noopener">Join Discord</a>
     </div>
   </div>
-  <!-- IMPORTANT: double braces {{ ... }} so Jekyll renders the image path -->
-  <div class="media reveal"><img src="{{ "/assets/img/og-image.png" | relative_url }}" alt="KOTH: Knockback banner" /></div>
+  <div class="media reveal">
+    <img src="{{ "/assets/img/koth-banner.png" | relative_url }}" alt="KOTH: Knockback banner" loading="lazy" />
+  </div>
 </section>
 
 <div class="hr"></div>
 
 ### Secondary Flagship — 3D Survivors
-<div class="featured reveal">
+<section class="featured reveal featured--single">
   <div>
     <h2>Vampire Survivors — 3D</h2>
     <p class="muted"><em>A fast-paced, 3D Roblox roguelite where swarms grow, builds break, and bosses crash the party.</em></p>
@@ -37,8 +38,7 @@ description: "LQC Studios — building playful, high-effort experiences."
       Survive escalating waves in a Vampire Survivors–style arena, vacuuming up XP orbs to draft animated upgrade cards—from solid boosts to mythic, glowing picks—and stack busted combos of auto-attacks and aura weapons. Every 5 minutes a server-wide warning triggers a boss: a colossal red sphere at 5:00, then a blue titan at 10:00 that fires slow hulks and quick darts; the timer pauses for the fight, and each win cranks enemy caps and difficulty. Pop your Spirit zone to pull in nearby XP, dodge projectiles, and see how long you can last.
     </p>
   </div>
-  <div class="media"></div>
-</div>
+</section>
 
 <div class="hr"></div>
 
