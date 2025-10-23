@@ -6,37 +6,17 @@ description: "LQC Studios — building playful, high-effort experiences."
 ---
 
 <section class="hero reveal">
+  <!-- Left: brand hero card -->
   <div class="card">
-    <span class="kicker">Flagship</span>
-    <h1>KOTH: Knockback</h1>
-    <p class="tagline">Stay on the island. Send everyone else flying.</p>
-    <p class="muted">
-      A round-based King-of-the-Hill brawler on Roblox. Queue up with the Sign Up button, then get
-      teleported to the Main Island where your score climbs only while you’re inside the hill. Use a
-      physics Slap tool to blast rivals into the void and keep your footing. When only one player
-      remains on the hill, a 30-second cleanup runs and everyone resets for the next round. Warm up
-      anytime on <strong>PracticeIsland</strong> without affecting score.
-    </p>
-    <div class="cta-row">
-      <a class="btn btn--solid" href="https://www.roblox.com/share/g/5641441" target="_blank" rel="noopener">Roblox Group</a>
-      <a class="btn btn--ghost" href="https://discord.gg/eFWCcxUbE7" target="_blank" rel="noopener">Join Discord</a>
-    </div>
+    <span class="kicker">LQC — Low Quality Creations</span>
+    <h1>Built with creativity, not perfection.</h1>
+    <p class="muted">We create, playtest and publish Roblox games fueled by our staff’s creativity and drive.</p>
+    <a class="btn btn--solid" href="{{ "/projects/" | relative_url }}">See Projects</a>
   </div>
+
+  <!-- Right: LQC banner (use your og-image) -->
   <div class="media reveal">
-    <img src="{{ "/assets/img/koth-banner.png" | relative_url }}" alt="KOTH: Knockback banner" loading="lazy" />
-  </div>
-</section>
-
-<div class="hr"></div>
-
-### Secondary Flagship — 3D Survivors
-<section class="featured reveal featured--single">
-  <div>
-    <h2>Vampire Survivors — 3D</h2>
-    <p class="muted"><em>A fast-paced, 3D Roblox roguelite where swarms grow, builds break, and bosses crash the party.</em></p>
-    <p class="muted">
-      Survive escalating waves in a Vampire Survivors–style arena, vacuuming up XP orbs to draft animated upgrade cards—from solid boosts to mythic, glowing picks—and stack busted combos of auto-attacks and aura weapons. Every 5 minutes a server-wide warning triggers a boss: a colossal red sphere at 5:00, then a blue titan at 10:00 that fires slow hulks and quick darts; the timer pauses for the fight, and each win cranks enemy caps and difficulty. Pop your Spirit zone to pull in nearby XP, dodge projectiles, and see how long you can last.
-    </p>
+    <img src="{{ "/assets/img/og-image.png" | relative_url }}" alt="LQC banner" loading="lazy" />
   </div>
 </section>
 
@@ -45,15 +25,22 @@ description: "LQC Studios — building playful, high-effort experiences."
 ### Latest Updates
 <div class="grid">
   <article class="card reveal">
+    <h3>KOTH: Knockback</h3>
+    <p class="muted">King-of-the-Hill slap battles with chaotic physics and clean UI.</p>
+  </article>
+
+  <article class="card reveal">
+    <h3>Vampire-style Survival</h3>
+    <p class="muted">3D arena upgrades, aura weapons, boss waves, and juicy VFX.</p>
+  </article>
+
+  <article class="card reveal">
+    <h3>Tooling & Animation</h3>
+    <p class="muted">Moon Animator rigs, camera pans, UI tweening—production ready.</p>
+  </article>
+
+  <article class="card reveal">
     <h3>67 Clicker</h3>
-    <p class="muted">Classic clicker systems with rebirths, autoclickers, and progression polish.</p>
-  </article>
-  <article class="card reveal">
-    <h3>Big Bacon Tycoon</h3>
-    <p class="muted">Economy balancing, upgrades, and tycoon loop tuning for sticky sessions.</p>
-  </article>
-  <article class="card reveal">
-    <h3>Goat Parkour Training</h3>
-    <p class="muted">Movement-mechanics sandbox used to prototype smoother traversal (unreleased).</p>
+    <p class="muted">A clicker game fueled by the global sensation the 67 kid.</p>
   </article>
 </div>
