@@ -7,6 +7,7 @@ description: "LQC Studios projects and experiments"
 
 # Projects
 
+<!-- Featured: KOTH with image -->
 <section class="featured reveal">
   <div>
     <h2>KOTH: Knockback</h2>
@@ -24,12 +25,14 @@ description: "LQC Studios projects and experiments"
     </p>
   </div>
   <div class="media">
+    <!-- Your 512×336 image goes here -->
     <img src="{{ "/assets/img/koth-banner.png" | relative_url }}" alt="KOTH: Knockback banner" loading="lazy" />
   </div>
 </section>
 
 <div class="hr"></div>
 
+<!-- Secondary flagship: Survivors (NO media block) -->
 <section class="featured reveal featured--single">
   <div>
     <h2>Vampire Survivors — 3D</h2>
