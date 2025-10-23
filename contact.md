@@ -11,7 +11,7 @@ description: "Contact LQC Studios"
   <section class="card reveal">
     <h3>Email</h3>
     <p>For collaborations or feedback, reach out any time.</p>
-    <p><a class="btn btn--solid" href="mailto:hello@lqcstudios.ca">hello@lqcstudios.ca</a></p>
+    <p><a class="btn btn--solid" href="mailto:contact@lqcstudios.ca">contact@lqcstudios.ca</a></p>
   </section>
 
   <section class="card reveal">
